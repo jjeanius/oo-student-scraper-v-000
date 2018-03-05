@@ -22,8 +22,8 @@ end
 
   def add_student_attributes(attributes_hash)
     attributes_hash.each do|attribute|
-      attribute.bio = bio
-
+      attributes_hash << attribute
+      
     end
   end
 
