@@ -18,11 +18,11 @@ end
     self.new(student)
     @@all << self
     end
-  end
+
 
   def add_student_attributes(attributes_hash)
     attributes_hash.each do|attribute|
-      students_hash << attribute
+      students_hash << attribute.attribute
     end
   end
 
